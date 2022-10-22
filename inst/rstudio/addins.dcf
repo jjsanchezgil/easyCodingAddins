@@ -1,0 +1,4 @@
+Name: Insert anonymous function (\(x) )
+Description: Inserts `(\(x)  )` at the cursor position and moves it into the function
+Binding: insertAnonymousAddin
+Interactive: false
