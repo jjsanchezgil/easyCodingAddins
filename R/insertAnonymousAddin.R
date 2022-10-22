@@ -7,7 +7,7 @@
 insertAnonymousAddin <- function() {
   rstudioapi::insertText(text = "(\\(x)  )")
   pos <- rstudioapi::primary_selection(rstudioapi::getActiveDocumentContext())
-  pos$range$end[2] <- pos$range$end[2] - 2
   pos$range$start[2] <- pos$range$start[2] - 2
+  pos$range$end[2] <- pos$range$end[2] - 2
   rstudioapi::setCursorPosition(pos$range)
 }
