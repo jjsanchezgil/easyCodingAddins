@@ -1,0 +1,10 @@
+Package: easyCodingAddins
+Type: Package
+Title: Useful addins to work in RStudio
+Version: 0.1.0
+Author: Juan José Sánchez
+Maintainer: Juan José Sánchez <sanchezgil.juanjose@gmail.com>
+Description: Addins to ease coding in RStudio
+License: Public
+Encoding: UTF-8
+LazyData: true
